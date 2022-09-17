@@ -17,3 +17,7 @@ resource "aws_volume_attachment" "ebs_att" {
   volume_id   = aws_ebs_volume.test.id
   instance_id = aws_instance.group9.id
 }
+
+resource "aws_iam_role" "liz" {
+  
+}
