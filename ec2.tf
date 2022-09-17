@@ -21,4 +21,4 @@ resource "aws_volume_attachment" "ebs_att" {
 resource "aws_iam_role" "liz" {
   
 }
-resource "aws_iam_role_policy" (
+resource "aws_iam_role_policy" "test-policy" (
